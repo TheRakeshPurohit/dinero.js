@@ -107,6 +107,7 @@ export default function Docs({
         </div>
         <MDXRemote
           {...mdxSource}
+          // @ts-ignore
           components={{ BundleSizeTable, BundleSize }}
         />
       </>

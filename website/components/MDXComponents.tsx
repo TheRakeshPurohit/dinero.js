@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useRouter } from 'next/router';
 import { useState } from 'react';
 import reactToText from 'react-to-text';
